@@ -16,7 +16,7 @@ class Main extends Component {
 
   componentDidMount(){
     Client.fetchPosts((posts) => {
-      this.setState(posts: posts)
+      this.setState({posts: posts})
     })
 
   }
