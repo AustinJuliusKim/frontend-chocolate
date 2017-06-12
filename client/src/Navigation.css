@@ -1,0 +1,47 @@
+.Navigation {
+  background-color: #222;
+  margin-bottom: 40px;
+}
+
+.Nav-main {
+  background-color: #222;
+  border: 2px solid white;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.Nav-link:hover {
+  color: blue;
+}
+
+.Footer {
+  background-color: #222;
+}
+
+.Footer-main {
+  background-color: #222;
+  /*border: 2px solid white;*/
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
