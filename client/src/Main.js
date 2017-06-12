@@ -22,11 +22,11 @@ class Main extends Component {
   }
 
   render() {
-    // console.log(posts);
+    let posts = this.state.posts;
     return (
       <main className="Main">
         <Profile/>
-        <Blog/>
+        <Blog posts={posts}/>
       </main>
     )
   }
